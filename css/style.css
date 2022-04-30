@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track:hover {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  width: 10px;
+}
+
+.nav-link {
+  font-size: smaller;
+  color: black;
+  text-transform: uppercase;
+}
+
+.toggle-button {
+  font-size: 1.8em;
+}
+.dropdown-menu {
+  opacity: 0.5 !important;
+  transition: 1s all !important;
+}
+.dropdown-item a {
+  transition: 1s all !important;
+  color: black !important;
+}
+.dropdown-item a:hover {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+.open-dropdown:hover .dropdown-menu {
+  display: block;
+  transition: 0.5s all !important;
+}
+
+.input-group .form-control {
+  box-shadow: none !important;
+  border-radius: 0px;
+  border-left: 0px;
+}
+.input-group-text {
+  border-radius: 0px;
+  border-right: none;
+}
+
+.site-btn {
+  color: black;
+  text-align: center;
+  padding: 7px 14px;
+  border: 1px solid;
+  border-radius: 0px !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+.carousel-indicators li {
+  border-radius: 50% !important;
+  width: 9px !important;
+  height: 9px !important;
+}
+.carousel-indicators .active {
+  background-color: rgb(103, 102, 102) !important;
+}
+.card {
+  border: none !important;
+}
+.card-icon a {
+  color: black !important;
+  text-decoration: none;
+}
+.card-icon a:hover {
+  color: rgb(128, 99, 99) !important;
+}
+
+.icon {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.icon a {
+  text-decoration: none !important;
+  color: #555;
+  transition: 0.2s font-weight !important;
+}
+.icon a:hover {
+  font-weight: 600 !important;
+}
+.icon:hover {
+  color: rgb(128, 99, 99) !important;
+}
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: 25px;
+  z-index: 1;
+  overflow: hidden;
+  width: 55px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  color: #fff;
+  opacity: 0.5;
+  background-color: #000;
+  font-size: 2.5em;
+}
+.site-color {
+  color: rgb(43, 114, 100) !important;
+}
+p {
+  font-family: "Patrick Hand", cursive;
+  color: rgb(44, 43, 43);
+  font-size: medium;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Slabo 27px", serif;
+}
+.min-h {
+  min-height: 150px !important;
+}
+
+.font-cursive {
+  font-family: "Pacifico", cursive !important;
+  color: rgb(44, 43, 43) !important;
+}
+
+.img-rounded {
+  width: 125px !important;
+  height: 125px !important;
+  border-radius: 50% !important;
+}
+
+.divider {
+  width: 100%;
+  background: rgb(154, 152, 152) !important;
+  height: 3px;
+  border-radius: 3px;
+}
+
+.indicator li {
+  background-color: #fff !important;
+}
+
+#calendar {
+  text-align: center !important;
+}
+#calendar .dycalendar-body table {
+  text-align: center !important;
+  padding: 10px 15px !important;
+}
+#calendar .dycalendar-body table td {
+  padding: 5px !important;
+  margin: 20px !important;
+}
+
+.nav-pills {
+  justify-content: space-around;
+  transition: all 1s ease-in-out;
+}
+.nav-pills li a {
+  color: black !important;
+}
+
+.nav-pills li a:hover {
+  border: none !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-pills li .active {
+  font-weight: 800 !important;
+}
+a {
+  font-family: "Radio Canada", sans-serif !important;
+}
+.form-icon i {
+  font-size: 40px !important;
+  margin: 0 5px !important;
+}
+
+input {
+  border-radius: 0px !important;
+}
+.dark-btn {
+  background: rgb(22, 22, 22);
+  color: #f1f1f1;
+  text-decoration: none !important;
+  text-transform: none !important;
+  padding: 0 15px !important;
+  height: 38px;
+  text-align: center;
+  line-height: 40px;
+  box-sizing: border-box !important;
+  transition: 0.3s all !important;
+}
+.dark-btn:hover {
+  background: rgb(247, 245, 245);
+  color: rgb(50, 49, 49);
+  border: 1px solid;
+}
+.like {
+  width: 22px;
+  height: 17.5px;
+  color: gray;
+  transition: 0.3s color;
+}
+.like:hover {
+  color: red;
+}
+.pagination .page-item .page-link{
+  border: none !important;
+  background-color: #fff !important;
+  color: black !important;
+  margin: 5px  10px 0px 10px !important;
+  transition: 0.2s color;
+}
+.pagination .page-item .page-link:hover{
+  color: aqua !important;
+}
+.footer li a{
+  color: rgb(154, 156, 157) !important;
+  font-size: small;
+}
+.footer li a:hover{
+  color: aquamarine !important;
+}
+.footer-icon i{
+  font-size: 25px;
+  color: rgb(154, 156, 157) !important;
+  cursor: pointer;
+  margin: 0 10px !important;
+}
+.footer-icon i:hover{
+  color: rgb(200, 212, 212) !important;
+}
